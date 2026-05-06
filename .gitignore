@@ -2,3 +2,8 @@ node_modules
 dist
 .DS_Store
 .claude/
+
+# docs/ is private planning material — never commit.
+# A pre-commit hook in .git/hooks/pre-commit also blocks docs/ paths
+# as a belt-and-braces guard against `git add -f`.
+docs/
