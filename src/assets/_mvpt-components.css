@@ -1432,7 +1432,12 @@ body > footer .footer-disclaimer {
   .tab-content > section.ig-showcase .ig-showcase-content { max-width: 100%; }
   .tab-content > section.ig-showcase p { max-width: 100%; margin-left: auto; margin-right: auto; }
   .tab-content > section.ig-showcase .ig-showcase-video { width: 220px; }
-  .tab-content > section.results-hero { padding: 32px 24px; }
+  .tab-content > section.results-hero {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 32px 24px;
+    border-radius: 0;
+  }
   .tab-content > section.results-hero h2 { font-size: 26px; }
   .tab-content > section.results-hero .results-hero-stats { flex-wrap: wrap; gap: 1rem; }
 }
